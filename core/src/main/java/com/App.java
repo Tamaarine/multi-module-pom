@@ -6,7 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
     public static void main(String[] args) {
-        System.out.println("This is going to happen!");
+        var student = new Student();
+        student.setAddress("Address 1");
+        System.out.println(student);
         SpringApplication.run(App.class);
     }
 }
