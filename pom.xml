@@ -25,6 +25,7 @@
 	</modules>
 
 	<dependencies>
+		<!-- Changing line here -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
